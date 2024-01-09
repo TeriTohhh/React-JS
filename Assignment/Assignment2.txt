@@ -1,0 +1,82 @@
+# Theory Assignment:
+● - What is `NPM`?
+● - What is `Parcel/Webpack`? Why do we need it?
+● - What is `.parcel-cache`
+● - What is `npx` ?
+● - What is difference between `dependencies` vs `devDependencies`
+● - What is Tree Shaking?
+● - What is Hot Module Replacement?
+● - List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+● - What is `.gitignore`? What should we add and not add into it?
+● - What is the difference between `package.json` and `package-lock.json`
+● - Why should I not modify `package-lock.json`?
+● - What is `node_modules` ? Is it a good idea to push that on git?
+● - What is the `dist` folder?
+● - What is `browserlists`
+Read about dif bundlers: vite, webpack, parcel
+● Read about: ^ - caret and ~ - tilda
+● Read about Script types in html (MDN Docs)
+
+
+////////////////////////////////////////////////////////////////
+
+1. NPM is pacakge manager for js and it is software registry platform and it has node js for running our java script code 
+
+2. Parcel or webpack is bundler for our javascript code
+and it is used to clean and minify the code in js 
+some advantage for Parcel bundler
+    Bundling
+    minifying
+    cleaning the code
+    dev and production build
+    image optimisation
+    compression
+    it works with the old browserlists
+    it mannage the port for us running the the react
+
+3. NPX stands for node package excute , and it allows us to run js package available 
+
+4  Dependencies : It is just a pacakge that your project uses
+
+   devDependencies : They are the modules which are olny required during local devlopment and testing,
+
+5. Tree Shaking: it is a term commonly used within a js context to describe the removal of dead code 
+  it relies in import and export statement to detect if code modules are exported and imported for use between js files
+
+6. HMR stands for hot module Replacement, it is a powerfull feature designed to  enhance thedevlopment process by providing real time updates to modules withing a running application.
+
+7. Some SuperPower of parcel 
+    Bundling
+    minifying
+    cleaning the code
+    image optimisation
+    compression
+
+    IT minifies our code
+    it compresss our images  
+    it cleans our code 
+    it manages our port for running the program
+
+8. .gitignore is file that store the information of that files which should not be pushed to our github
+
+    we should not add these files : 
+    node modules
+    debug log
+    .vscode files
+    yarn  files
+    yarn debugger
+
+9. package.json : it holds the imp information about project .it contains human readable metadata about the project like projectname and projectDescription and functional metadata like pacakge version number and list of dependencies required
+
+  package.lock.json : It is automatically generated for those operations where npm modifies either node_modules tree or package.json. It allows future devs to install the same dependencies in the project. It contains the name, dependencies, and locked version of the project. 
+
+10. npm decides to update the package-lock. json file when you run an npm install . It does this to seemingly keep dependencies up-to-date without having to run npm update separately.
+
+11. node_modules is just a directory created by npm and a way of tracking each packages you install locally via package.json
+ 
+  no it's not good idea to push these files on git 
+
+12. dist - if you are using something that bundles your code, this is where your code gets bundled to for use in its “production” environment. This is most often used for UI apps, but with things like typescript and es6 being used with webpack, this can be used on nodejs as well. If you are making an NPM package, when your module builds itself this is where your code needs to be loaded from.
+
+13. Browserslist can specify which browsers your web application can run in, it provides a configuration for specifying browsers range.

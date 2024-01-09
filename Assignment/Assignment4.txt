@@ -1,0 +1,53 @@
+Topics  ==== Go study For Your BetterMent 
+JSX
+React.createElement vs JSX
+Benefits of JSX
+Behind the Scenes of JSX
+Babel & parcel role in JSX
+Components
+Functional Components
+Composing Components
+
+
+Assignment
+
+What is JSX?
+Superpowers of JSX
+Role of type attribute in script tag? What options can I use there?
+{TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX
+
+
+1. JSX stands for JavaScript XML. JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods. JSX makes it easier to write and add HTML in React. JSX converts HTML tags into react elements.
+
+2.Using JSX, you can write markup inside Javascript, providing you with a superpower to write logic and markup of a component inside a single .jsx file. JSX is easy to maintain and debug.
+
+3.The type attribute specifies the type of the script. The type attribute identifies the content between the <script> and </script> tags. It has a Default value which is “text/javascript”.
+
+4. a.1. {TitleComponent}:
+
+Evaluates to the value of the TitleComponent variable or expression.
+Doesn't create a React element.
+Use it when you want to display the value of the variable itself within JSX, not render a component.
+
+b.{<TitleComponent/>}:
+
+Creates a React element for the TitleComponent component.
+Shorthand self-closing syntax for components without content.
+Use it for components that don't need to have children or inner content.
+
+c. <TitleComponent></TitleComponent>:
+
+Also creates a React element for the TitleComponent component.
+Full opening and closing tag syntax, used for components that might have children or inner content.
+Even if a component doesn't have content, you can use this syntax for readability or potential future content.
+
+
+
+===================================================================================
+
+References
+Babel: https://babeljs.io/
+Attribute Type: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script#attr-type
+JS Modules: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+Babel Playground: https://babeljs.io/repl#
+React without JSX: https://reactjs.org/docs/react-without-jsx.html
