@@ -1,0 +1,40 @@
+.header{
+    font-weight: 500;
+    font-size: larger;
+    border: 2px solid ;
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+app{
+    text-align: center;
+}
+
+.form-header{
+    margin-left: 12px;
+}
+
+.add-contacts{
+    font-size: initial;
+    font-weight: 500;
+    font-family: fantasy;
+    margin-left: 12px;
+}
+
+.conatctsheader{
+    font-weight: 700;
+    font-size: medium;
+    font-family: system-ui;
+    margin-left: 12px;
+    margin-top: 20px;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    background-color: rgb(131, 26, 26);
+    margin-bottom: 2px;
+    margin-left: 20px;
+    margin-right: 5px;
+    color: white;
+}
