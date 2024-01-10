@@ -1,6 +1,6 @@
-# TodoList Project
+# Add Contacts Project
 
-This repository contains a simple Todo List project implemented in [language/framework/tool used]. It allows users to manage tasks by adding, deleting, and marking them as completed.
+This repository contains a simple conatcts Manager t project implemented in [React-JS /and VS-CODE /tool used]. It allows users to manage contacts by adding, deleting.
 
 ## Features
 
