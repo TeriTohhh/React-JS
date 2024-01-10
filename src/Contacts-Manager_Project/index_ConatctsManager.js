@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react"
-import ReactDOM from "react-dom/client";
+// import ReactDOM from "react-dom/client";
 import Header from "./Header";
 import './toDoList.css'
 import AddContact from "./AddContacts";
 import ContactList from "./ContactList";
 import uuid4 from "uuid4";
 
-function ToDoList(){
+function ContactsManager(){
   const localStrorageKey="conatct"
 
   const[contact , setContact]=useState(()=>{
@@ -39,7 +39,7 @@ function ToDoList(){
     )
 }
 
-export default ToDoList
+export default ContactsManager
 
 // const root=ReactDOM.createRoot(document.getElementById("root")); 
 // root.render(<ToDoList/>)  
